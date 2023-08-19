@@ -15,15 +15,15 @@ function Regis()
     {
         try
         {
-            const res1=await axios.post("https://server-vqm4.onrender.com/"+name+"/"+password);
+            const res=await axios.post("https://server-vqm4.onrender.com/"+name+"/"+password);
             
-                if(res1.data)
+                if(res.data)
                 {
                     nav('/pbstatement');
                 }
-               
-            
-
+                else{
+                    alert("try again")
+                }
         }
         catch(e)
         {
