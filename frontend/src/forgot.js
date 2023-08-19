@@ -14,7 +14,7 @@ const Word=async()=>
 {
   try
   {
-    const isGoal = await axios.post("http://localhost:8000/fpass/"+mail+"/"+newpassword);
+    const isGoal = await axios.post("https://server-vqm4.onrender.com/fpass/"+mail+"/"+newpassword);
   if(isGoal.data)
   {
     alert("ok")

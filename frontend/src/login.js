@@ -15,7 +15,7 @@ function Regis()
     {
         try
         {
-            const res1=await axios.post("http://localhost:8000/login/"+name+"/"+password);
+            const res1=await axios.post("https://server-vqm4.onrender.com/"+name+"/"+password);
             
                 if(res1.data)
                 {
