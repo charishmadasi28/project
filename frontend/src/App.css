@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logbutton{
+  margin-left: 1090px;
+}
+.div1{
+ 
+  background-image:url('C:\Users\dasic\OneDrive\Desktop\git\project\frontend\public\img.webp') ;
+
+  background-repeat: no-repeat;
+  height: 900px;
+  margin: 0%;
+}
+
+
+.div3{
+  height: 90px;
+  text-align: center;
+  
+}
+.color{
+  background-color: aquamarine;
+}
+
+.color{
+  background-color: blue;
+}
+
+@media only screen and (max-width:820px) {
+  .div4{
+    background-color: rgb(184, 171, 150);
+    color: #0c0303;
+    border-radius: 5px;
+    top: 200px;
+    display: block;
+    margin: 20px auto;
+    width: 25%;
+    height: 130px;
+    border: none;
+    padding: 15px;
+    text-transform: capitalize;
+  }
+
+ }
+
+
+.div4{
+  background-color: rgb(184, 171, 150);
+  color: #0c0303;
+  border-radius: 5px;
+  top: 200px;
+  display: block;
+  margin: 20px auto;
+  width: 25%;
+  height: 130px;
+  border: none;
+  padding: 15px;
+  text-transform: capitalize;
+}
+.button1{
+  margin-left: 1180px;
+}
+
+.div5{
+  margin-left: 520px;
+}
+.button{
+  margin-left: 0px;
+}
+.chintu{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid black;
+  background-color: rgb(117, 204, 230);
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.mintu{
+  background-color: rgb(184, 171, 150);
+  color: #0c0303;
+  border-radius: 5px;
+  top: 200px;
+  display: block;
+  margin: 20px auto;
+  width: 35%;
+  height: 100px;
+  border: none;
+  padding: 15px;
+  text-transform: capitalize;
+}
