@@ -5,9 +5,6 @@ import Signin from "./signup";
 function Regis()
 {
     const nav=useNavigate();
-    // const Submit=() =>{
-    //     nav('/prom')
-    // }
     const Forgot=() =>{
         nav('/fpass')
     }
