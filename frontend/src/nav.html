@@ -23,11 +23,74 @@ body {
 }
 .search-container {
   float: none;
-    display: block;
+    display: inline-block;
     text-align: left;
     width: 100%;
     margin: 0;
     padding: 14px;
+    /* border-style: ridge; */
+}
+/* .search-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+} */
+
+.handle {
+  width: 2px;
+  height: 12px;
+  background-color: #7d447d;
+  position: absolute;
+  top: 125%;
+  left: 710%;
+  transform: translate(-50%, -50%) rotate(120deg);
+  transform-origin: top;
+}
+
+.glass {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #7d447d;
+  border-radius: 50%;
+  position: absolute;
+  top: 73%;
+  left: 650%;
+  transform: translate(-50%, -50%);
+}
+
+/* .circle {
+  width: 6px;
+  height: 6px;
+  background-color: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+/* .search-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+} */
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background: url('C:\Users\dasic\OneDrive\Desktop\git\project\frontend\public\images.png') no-repeat center;
+  background-size: contain;
+  margin-right: 10px;
 }
 
 
@@ -41,15 +104,28 @@ body {
   <a>minny</a>
   <a>junnu</a>
   <a>vinne</a>
+  
+</div>
+<div class="search-icon">
   <div class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
+      <button type="submit"><i class="fa fa-search"><span class="icon"></span></i></button>
+    </div>
+  <div class="handle"></div>
+  <div class="glass">
+    
+    <div class="circle"></div>
   </div>
+
+    </form>
+  
 </div>
-
-
+  
+   <!-- <button class="search-button">
+    <span class="icon"></span>
+    Search
+  </button> -->
   
 
 <div >

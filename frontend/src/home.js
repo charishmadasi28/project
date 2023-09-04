@@ -10,6 +10,9 @@ function Page()
      const Signup=() =>{
         nav('/signup')
      }
+     const Admin=() =>{
+        nav('/admin')
+     }
     //  const Waste=() =>{
     //     nav('/road')
     //  }
@@ -22,7 +25,7 @@ function Page()
           
          <button  className="logbutton" name="button" onClick={Login} >login</button><br/>
          <button  className="button1" name="button1" onClick={Signup} >signup</button><br/>
-         
+         <button  className="button1" name="button1" onClick={Admin} >admin</button><br/>
          <div className="div3">
           <h1>WELCOME</h1>
           </div>

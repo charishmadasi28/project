@@ -6,13 +6,8 @@ import Crisis from './water'
 import Regis from './login';
 import Signin from './signup';
 import Page from './home';
-import Fpassword from './forgot';
-import Adminlogin from './admin';
-// import Searchbar from './nav';
-import { Pbstatement } from './sample2';
-import { Problem } from './pbstate';
 import { Input } from './collection/input/input';
-import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import { BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
   return (
@@ -26,13 +21,10 @@ function App() {
      <Route path='/water' element={<Crisis/>}/>
      <Route path='/login' element={<Regis/>}/>
      <Route path='/signup' element={<Signin/>}/>
-     <Route path='/fpass' element={<Fpassword/>}/>
-     <Route path='/pbstatement' element={<Pbstatement/>}/>
-     <Route path='/pv' element={<Problem/>}/> 
-     <Route path='/admin' element={<Adminlogin/>}/> 
-     {/* <Route path='/' element={<Page/>}/>
-     {/* <Route path='/' element={<Searchbar/>}/> */}
-     <Route path='/input' element={<Input/>}/>
+     
+     {/* <Route path='/' element={<Page/>}/> */}
+     
+     {/* <Route path='/input' element={<Input/>}/> */}
       </Routes>   
     </BrowserRouter>
     </>

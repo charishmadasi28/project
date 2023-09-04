@@ -40,6 +40,11 @@ app.post('/login/:name/:password',async(req,res)=>
     const details=await db.collection('Hello').findOne({Name:req.params.name,password:req.params.password})
     res.json(details);
 })
+app.post('/admin/:mail/:password',async(req,res)=>
+{
+    const details=await db.collection('Hello').findOne({Mail:req.params.mail,password:req.params.password})
+    res.json(details);
+})
 app.post('/input/:name/:gmail',async(req,res)=>
 {
     const details=await db.collection('Hello').insertOne({Name:req.params.name,Gmail:req.params.gmail})

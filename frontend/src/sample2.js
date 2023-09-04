@@ -7,7 +7,7 @@ export const Pbstatement=()=>
     const submit=async()=>
     {
         try{
-            const res=await axios.post("https://server-vqm4.onrender.com/"+about+"/"+matter)
+            const res=await axios.post("https://server-vqm4.onrender.com/pbstatement/"+about+"/"+matter)
             if(res.data)
             {
                 alert('successfully added')
